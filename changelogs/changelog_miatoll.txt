@@ -3,12 +3,119 @@ Build type: Stable
 Device: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
 Device maintainer: RiteshSahany
 
-===== 02 January 2025 ====
+===== 20 February 2025 =====
+
+* Rebased trees over latest LineageOS.
+* Switched audio HAL to V7.
+* Added Dolby Atmos support.
+* Added DSPVolumeSynchronizer.
+* Integrated Spatial Audio.
+* Removed Virtual Framebuffer.
+* Refactored BOARD_FLASH_BLOCK_SIZE.
+* Prevented backup of Wi-Fi overlays.
+* Used HintManager for HWUI.
+* Disabled per-cgroup PSI accounting.
+* Fixed mic issues in apps like WhatsApp.
+* Improved smooth scrolling.
+* Increased network signal tolerance.
+* Enabled QPower & Deep Sleep simultaneously.
+* Disabled forced DCI-P3 in adaptive color mode.
+* Removed SQLite MEMORY mode config.
+* Dropped debugfs files.
+* Removed unnecessary QTI logkit dirs.
+* Disabled QCOM system daemon.
+* Re-defined Bluetooth A2DP offload.
+* Cleaned all rootdir scripts.
+* Used QTI vibrator HAL fragments.
+* Improved app launch animation.
+* Enabled pre-rendering.
+* Fixed screen record lag.
+* Offloaded 24-bit playback support for MP3 and AAC formats.
+* Updated the audio I/O policy for VoIP.
+* Removed TelePhony Rx from the primary input.
+* Removed hardware acceleration effect.
+* Fixed up the audio I/O policy for VoIP RX flags.
+* Used the Qualcomm (QCOM) implementation for audio effects.
+* Added missing ACDB IDs.
+* Fixed low mic volume issue on VoIP.
+* Removed the unused persist.bluetooth.a2dp_offload.cap property.
+* Updated the fingerprint for the Redmi Note 10 Lite.
+* Overrode the default C compiler for kernel compilation.
+* Explicitly disabled protected management frames in WiFi.
+* Dropped support for 24-bit and 32-bit recording.
+* Disabled stereo support for VoIP.
+* Disabled phantom process monitoring.
+* Killed IMS logspam.
+* Enabled debug.sf.hw for enhanced hardware debugging.
+* Quieted volatile GPS warnings.
+* Added dependencies for Health AIDL change.
+* Added toggle for LTE_CA in overlays.
+* Added battery cycle count display in overlays.
+* Set swiotlb to default size in BoardConfig.
+* Made smarter decisions for using 2GHz or 5GHz APs.
+* Relaxed Wi-Fi re-association RSSI thresholds.
+* Increased maximum BSS count for Wi-Fi.
+* Removed obsolete config_wifi_batched_scan_supported overlay.
+* Tuned input boost parameters.
+* Enabled conservative PL for Atoll.
+* Allowed all filesystems for USB-OTG in rootdir.
+* Updated GPS Battery listener for compatibility with hidl2.1 and AIDL.
+* Simplified battery listener logging.
+* Improved post-boot tuning for performance.
+* Disabled SF composition prediction model.
+* Disabled alpha compositing in WM overlay.
+* Offloaded WM shell to another thread.
+* Disabled slow blur effect to avoid lag.
+* Set block_binder_thread_on_incoming_calls property.
+* Preferred 'cache' backing storage for properties.
+* Enforced fstab suffix for QCOM.
+* Disabled continuous transaction tracing on all build types.
+* Switched to AOSP encryption.
+* Set subsystem restart level with ssr_setup utility.
+* Set permissions for rawdump node in init.
+* Removed WiGig components.
+* Added new QCRIL database.
+* Updated SEPolicy to allow ueventd to read vendor persist WCNSS service file.
+* Corrected routing order for VoIP output audio.
+* Enabled VoLTE/VoWiFi for all Indian carriers.
+* Enable VoWifi in airplane mode.
+* Set LTE+ threshold bandwidth to 0.
+* Globally enabled LTE+ icon.
+* Enabled editable_enhanced_4g_lte_bool globally in CarrierConfigOverlay.
+* Updated CarrierConfigOverlay from sweet_k6a OS1.0.3.0.THGMIXM.
+* Adjusted number of notification icons in the status bar.
+* Improved status bar padding.
+* Used jemalloc to fix MIUI camera.
+* Enabled zygote critical window.
+* Disabled OMX.
+* Removed duplicate snxxx AIDL rules in SEPolicy.
+* Dropped unnecessary BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE flag.
+* Updated PARTITION_RESERVED_SIZE.
+* Disabled FRP.
+* Killed console parameters.
+* Defined TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE.
+* Enabled Optimized Power Management for Wi-Fi.
+* Enabled SoftAP on indoor channel.
+* Enabled WPA3/SAE for Wi-Fi.
+* Disabled DFS master capability for Wi-Fi.
+* Disabled turbulence noise in overlay.
+* Restarted qcrild upon boot to system.
+* Disabled QTI perf lock usage in camera HAL.
+* Enabled Camera2API for legacy targets.
+* Enabled Video Distribution Profile (VDP) on IMS.
+* Improved pinner configuration in overlay.
+* Set ro.product.mod_device correctly and labeled SEPolicy for it.
+* Fixed MT SMS sent during power off in qcril.
+* Cleaned up useless log spam in properties.
+
+===== 02 January 2025 =====
+
 * Fixed Pure Black Theme
 * Fixed Freezing Issue in Launcher3
 * Fixed Google Lens Intent In QSB
 
-===== 27 December 2024 ====
+===== 27 December 2024 =====
+
 * Switched to Launcher3
 * Added Circle To Search
 * Updated Google-sans from komodo AP4A.241205.013
@@ -23,6 +130,7 @@ Device maintainer: RiteshSahany
 * Added formatting & mounting system partition in recovery
 
 ===== 23 November 2024 =====
+
 * Redesigned Settings UI
 * Added more ThemedIcons
 * Added Hidden SSID preference
@@ -30,10 +138,12 @@ Device maintainer: RiteshSahany
 * Various under-the-hood fixes, optimizations and improvements
 
 ===== 13 November 2024 =====
+
 * Added Circle battery icon
 * Added advanced reboot option
 * Fixed play integrity
 * Added Pitch black theme
 
 ===== 10 November 2024 =====
+
 * Initial release
