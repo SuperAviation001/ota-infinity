@@ -1,6 +1,15 @@
 Highlights & Source Specific Changes:
 Status: Stable
 
+===== 20 February 2025 =====
+
+* Added setting to allow/disallow interacting with quick settings on secure lockscreen
+* Added support for per-app volume
+* Added minimal support for Richtap vibrations
+* Added less boring heads up
+* Added option for AOD on charge
+* Removed screenshot action chip labels
+
 ===== 06 February 2025 =====
 
 * Merged February 2025 Security Patch (v2.3)
