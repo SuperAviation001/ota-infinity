@@ -1,0 +1,8 @@
+Highlights & Device Specific Changes:
+Build type: Stable
+Device: POCO F6
+Device maintainer: Not Blazeee
+
+===== 25 February 2025 =====
+
+* Initial release
