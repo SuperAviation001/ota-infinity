@@ -1,0 +1,8 @@
+Highlights & Device Specific Changes:
+Build type: Stable
+Device: Nothing Phone (2)
+Device maintainer: hiroshi. (Superuser)
+
+=====  28 February 2025 =====
+
+* Initial Official Build
