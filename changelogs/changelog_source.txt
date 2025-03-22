@@ -1,6 +1,17 @@
 Highlights & Source Specific Changes:
 Status: Stable
 
+===== 22 March 2025 =====
+
+* Initial QPR2 March 2025 Update (v2.4)
+* Retained the majority of features from the previous update.  
+* Introduced configurable rotation options, supporting 0°, 90°, 180°, and 270° angles.  
+* Added support for Touch Gestures.
+* Expanded ambient settings, providing additional customization options.
+* Integrated support for the Flashlight Strength Quick Settings Tile.
+* Added High Touch Polling Rate support, improving touch responsiveness.
+* Multiple optimizations for improved performance and user experience.
+
 ===== 20 February 2025 =====
 
 * Added setting to allow/disallow interacting with quick settings on secure lockscreen
