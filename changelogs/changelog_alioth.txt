@@ -3,6 +3,14 @@ Build type: Stable
 Device: Poco F3/ Mi 11x
 Device maintainer: Perses
 
+===== 27 March 2025 =====
+
+* Initial QPR2 Build
+* Address some manifests to fix hals
+* Build DSPVolumeSynchronizer
+* Enable torch intensity control
+* Update tetheroffload to version 1.1.
+
 ===== 20 February 2025 =====
 
 * Move to Xiaomi fingerprint AIDL
