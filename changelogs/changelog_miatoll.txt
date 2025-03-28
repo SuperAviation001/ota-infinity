@@ -1,7 +1,23 @@
 Highlights & Device Specific Changes:
 Build type: Stable
 Device: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
-Device maintainer: RiteshSahany
+Device maintainer: Arindam Bhattacharjee
+
+===== 28 March 2025 =====
+
+* Initial QPR2 release
+* drop! TAS2562 audio amplifier
+* Switch to Prebuilt + OSS audio combination
+* Update BSNL mobile carrier config
+* Added Motorola Dolby Atmos
+* Added Dolby Codec2 support
+* drop! qcom audio effects
+* Improved status bar padding
+* cleanup! unnecessary logspam
+* Enable WPA3/SAE
+* Improvement in WiFi related things
+* Shift with RedCherry Kernel
+* Misc fixes & optimization
 
 ===== 20 February 2025 =====
 
