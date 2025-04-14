@@ -1,6 +1,17 @@
 Highlights & Source Specific Changes:
 Status: Stable
 
+===== 13 April 2025 =====
+
+* A15 QPR2 April Patch Update (v2.5)
+* Fixed Multiple NPE problems
+* Brought back smartspace start paddings to what they were before
+* Removed more unnecessary smartspace spaces
+* Used Accent colors for privacy indicators
+* Added Multiple Screenrecord options
+* Added App Cloning Feature
+* Many more under-the-hood bug fixes and optimizations
+
 ===== 22 March 2025 =====
 
 * Initial QPR2 March 2025 Update (v2.4)
