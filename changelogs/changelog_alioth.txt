@@ -3,6 +3,13 @@ Build type: Stable
 Device: Poco F3/ Mi 11x
 Device maintainer: Perses
 
+===== 17 April 2025 =====
+
+* Cleanup OMX Dependencies for latest sources
+* sepolicy: Remove duplicate snxxx AIDL rules
+* Disable Chimera.GmsIntentOperationService and Disable collective Device administrators GMS components
+* Many more under-the-hood fixes and optimizations
+
 ===== 27 March 2025 =====
 
 * Initial QPR2 Build
