@@ -3,6 +3,18 @@ Build type: Stable
 Device: POCO F1
 Device maintainer: Akshat
 
-=====  26 March 2025 =====
+===== 17 April 2025 =====
+
+* Removed NXP,NFC & eSE sepolicy rules
+* Rewrite access to BT and WiFi MAC address files
+* Switched to AOSP WFD
+* Cleanup unused props
+* Added more props to improve smoothness,responsiveness and ram management
+* Addressed kernel & xiaomiparts sepolicy denials
+* Switched back to AIDL Xiaomi light(Fixes rapid blink of notification led)
+* Migrated thermal profiles to system settings
+
+
+===== 26 March 2025 =====
 
 * Initial Official release

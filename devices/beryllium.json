@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1743006132,
-      "filename": "CloverProject-v2.4-beryllium-OFFICIAL-20250326-1624.zip",
-      "id": "531b52cff651784e39c38a3502084ff584a69fe3bec0c703564081e690add895",
-      "size": 2355966552,
-      "url": "https://sourceforge.net/projects/the-clover-project/files/beryllium/CloverProject-v2.4-beryllium-OFFICIAL-20250326-1624.zip/download",
-      "version": "2.4",
+      "datetime": 1744866378,
+      "filename": "CloverProject-v2.5-beryllium-OFFICIAL-20250417-0510.zip",
+      "id": "209f9fb3539665c0e4ba64690f3c71f0fc5e8d561965fe3e65790f8bc904101a",
+      "size": 2364258463,
+      "url": "https://sourceforge.net/projects/the-clover-project/files/beryllium/CloverProject-v2.5-beryllium-OFFICIAL-20250417-0510.zip/download",
+      "version": "2.5",
       "devicename": "POCO F1",
       "maintainer": "Akshat"
     }
