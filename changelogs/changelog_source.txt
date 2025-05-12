@@ -1,6 +1,19 @@
 Highlights & Source Specific Changes:
 Status: Stable
 
+===== 13 May 2025 =====
+
+* A15 QPR2 May Patch Update (v2.6)
+* Improved charging control with optimizations for better battery management
+* Added Wi-Fi standard indicator in the status bar
+* Enabled default font configuration system-wide
+* Restored animations during Lock/Unlock
+* Added app downgrade support
+* Added toggle to hide screen capture status from apps
+* Option to hide ADB and developer setting status
+* Added AMOLED-themed icon effects
+* Various under-the-hood bug fixes and performance improvements
+
 ===== 13 April 2025 =====
 
 * A15 QPR2 April Patch Update (v2.5)
