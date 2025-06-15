@@ -1,6 +1,13 @@
 Highlights & Source Specific Changes:
 Status: Stable
 
+===== 15 June 2025 =====
+
+* A15 QPR2 June Patch Update (v2.7)
+* Added Quick Tap Service
+* Implemented Keybox Spoofing
+* That’s a wrap for Android 15! See you next month as we dive into Android 16.
+
 ===== 13 May 2025 =====
 
 * A15 QPR2 May Patch Update (v2.6)
