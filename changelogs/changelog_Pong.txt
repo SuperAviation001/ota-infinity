@@ -6,3 +6,13 @@ Device maintainer: hiroshi. (Superuser)
 =====  28 February 2025 =====
 
 * Initial Official Build
+
+===== 23 June 2025 =====
+
+* Build Gamebar
+* Build GlyphAdapter
+* June Security Patch
+* Switch to sony dolby
+* Drop powershare switch and tile (switch to powershare AIDL)
+
+!!! CLEAN FLASH FROM PREVIOUS BUILD IS RECOMMENDED !!!
