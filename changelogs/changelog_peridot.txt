@@ -1,7 +1,17 @@
 Highlights & Device Specific Changes:
 Build type: Stable
-Device: POCO F6
-Device maintainer: Not Blazeee
+Device: POCO F6 / Redmi Turbo 3
+Device maintainer: Blazeee
+
+===== 30 June 2025 =====
+
+blobs: Update blobs from OS2.0.104.0.VNPMIXM
+parts: Implement Turbo Charging , HTSR , Gamebar , Display Saturation , Per-App Refreshrate
+udfps: Enable sofod
+overlay: Adjust auto brightness config
+overlay: Kang auto brightness config from houji
+props: Disable FRP
+powerhint: Adjust powerhint frequency values
 
 ===== 25 February 2025 =====
 
