@@ -24,8 +24,8 @@
 codename="tetris"       # e.g., miatoll
 devicename="CMF Phone (1)"     # e.g., POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
 maintainer="schoosh"     # e.g., RiteshSahany
-zip=""            # e.g., CloverProject-v2.0-miatoll-OFFICIAL-20241110-1248.zip
-datetime=""       # e.g., 20250802-1356
+zip="Project_Infinity-X-3.0-tetris-20250802-1356-GAPPS-UNOFFICIAL.zip"            # e.g., CloverProject-v2.0-miatoll-OFFICIAL-20241110-1248.zip
+datetime="20250802-1356"       # e.g., 20250802-1356
 
 # -----------------------------
 # Auto-generated Values
@@ -33,8 +33,8 @@ datetime=""       # e.g., 20250802-1356
 script_path="${PWD}/.."
 zip_name="${script_path}/out/target/product/${codename}/${zip}"
 buildprop="${script_path}/out/target/product/${codename}/system/build.prop"
-output_json="${script_path}/official_updates/devices/${codename}.json"
-device_folder="${script_path}/official_updates/devices"
+output_json="${script_path}/ota-infinity/devices/${codename}.json"
+device_folder="${script_path}/ota-infinity/devices"
 
 # Create device folder if it doesn't exist
 if [ ! -d "$device_folder" ]; then
@@ -77,17 +77,15 @@ show_progress 5
 echo "done."
 cat <<EOF >>"$output_json"
 {
-  "response": [
-    {
-      "datetime": $timestamp,
-      "filename": "$zip",
-      "id": "$sha256",
-      "size": $size,
-      "url": "https://sourceforge.net/projects/schoosh-roms/files/Infinity-X/tetris/3.x/$datetime/$zip/download",
-      "version": "$version",
-      "devicename": "$devicename",
-      "maintainer": "$maintainer"
-    }
-  ]
+	"response": [
+		{
+			"filename": "$zip",
+			"download": "https://sourceforge.net/projects/schoosh-roms/files/Infinity-X/tetris/3.x/$datetime/$zip",
+			"timestamp": "$timestamp",
+			"md5": "2ce6f9c597d8b7dcf9f0acba0aae1e17",
+			"size": "$size",
+			"version": "3.0"
+		}
+	]
 }
 EOF
