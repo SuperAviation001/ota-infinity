@@ -1,0 +1,14 @@
+Device: CMF Phone (1)
+Device code name : tetris
+Device maintainer: schoosh
+
+Date - 03/08/2025
+=================
+**Your CMF Phone (1) is getting even better...**
+
+This update includes new Pixel features and the latest improvements, making your device even more helpful!
+
+**What's new?**
+
+- This is the initial infinity-x build by schoosh
+- No bugs!
