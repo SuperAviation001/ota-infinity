@@ -21,10 +21,11 @@
 # -----------------------------
 # User-defined Values
 # -----------------------------
-codename=""       # e.g., miatoll
-devicename=""     # e.g., POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
-maintainer=""     # e.g., RiteshSahany
+codename="tetris"       # e.g., miatoll
+devicename="CMF Phone (1)"     # e.g., POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
+maintainer="schoosh"     # e.g., RiteshSahany
 zip=""            # e.g., CloverProject-v2.0-miatoll-OFFICIAL-20241110-1248.zip
+datetime=""       # e.g., 20250802-1356
 
 # -----------------------------
 # Auto-generated Values
@@ -79,10 +80,10 @@ cat <<EOF >>"$output_json"
   "response": [
     {
       "datetime": $timestamp,
-      "filename": "$zip_only",
+      "filename": "$zip",
       "id": "$sha256",
       "size": $size,
-      "url": "https://sourceforge.net/projects/the-clover-project/files/$codename/$zip_only/download",
+      "url": "https://sourceforge.net/projects/schoosh-roms/files/Infinity-X/tetris/3.x/$datetime/$zip/download",
       "version": "$version",
       "devicename": "$devicename",
       "maintainer": "$maintainer"

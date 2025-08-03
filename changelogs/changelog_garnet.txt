@@ -1,8 +1,0 @@
-Highlights & Device Specific Changes:
-Build type: Stable
-Device: Redmi Note 13 Pro 5G / Poco X6 5G
-Device maintainer: kibria5
-
-===== 28 June 2025 =====
-
-* Initial Official Build
